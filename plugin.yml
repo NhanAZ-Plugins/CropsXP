@@ -1,10 +1,10 @@
 ---
 name: CropsXP
-version: 0.0.2
+version: 0.0.3
 main: NhanAZ\CropsXP\Main
 api: 5.0.0
 
-website: https://github.com/NhanAZ
+website: https://github.com/NhanAZ-Plugins/CropsXP
 description: Drops XP orbs on the ground when the player harvests crops.
 author: NhanAZ
 ...

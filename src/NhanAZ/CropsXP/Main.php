@@ -26,7 +26,6 @@ use pocketmine\plugin\PluginBase;
 class Main extends PluginBase implements Listener {
 
 	protected function onEnable(): void {
-		$this->saveDefaultConfig();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 
@@ -82,11 +81,11 @@ class Main extends PluginBase implements Listener {
 			return;
 		}
 		if ($block instanceof SweetBerryBush) {
-			if ($block->getAge() === $block::STAGE_MATURE) {
+			if ($block->getAge() === SweetBerryBush::STAGE_MATURE) {
 				$event->setXpDropAmount(mt_rand(2, 3));
 				return;
 			}
-			if ($block->getAge() >= $block::STAGE_BUSH_SOME_BERRIES) {
+			if ($block->getAge() >= SweetBerryBush::STAGE_BUSH_SOME_BERRIES) {
 				$event->setXpDropAmount(mt_rand(1, 2));
 				return;
 			}
