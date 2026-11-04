@@ -1,9 +1,15 @@
 # CropsXP
 
-CropsXP assigns experience drops when a survival player breaks supported crops and plants on an Axolotl-PM server.
+Award experience when survival players harvest crops on Axolotl-PM
 
-[![Build](https://github.com/NhanAZ-Plugins/CropsXP/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/CropsXP/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/NhanAZ-Plugins/CropsXP)](LICENSE)
+[![CI](https://github.com/NhanAZ-Plugins/CropsXP/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/CropsXP/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/CropsXP)](https://github.com/NhanAZ-Plugins/CropsXP/releases/latest)
+[![License](https://img.shields.io/github/license/NhanAZ-Plugins/CropsXP)](https://github.com/NhanAZ-Plugins/CropsXP/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Behavior
 
