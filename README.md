@@ -31,7 +31,7 @@ Download `CropsXP.phar` from a verified [GitHub release](https://github.com/Nhan
 
 Building with the pinned DevTools version requires PHP 8.4 or newer.
 
-The [build workflow](.github/workflows/build.yml) runs PHPStan level max, builds with [DevTools](https://github.com/NhanAZ/DevTools), and verifies the PHAR manifest, source, license and digest. The workflow pins the builder revision. A clean server startup check establishes that the PHAR loads. It does not replace an in-game harvest test with a player.
+The [build workflow](.github/workflows/build.yml) runs PHPStan level max, builds with [DevTools](https://github.com/AxolotlBucketLabs/DevTools), and verifies the PHAR manifest, source, license and digest. The workflow pins the builder revision. A clean server startup check establishes that the PHAR loads. It does not replace an in-game harvest test with a player.
 
 ## License and support
 
